@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="movil.css">
+    <script src="https://kit.fontawesome.com/d188054eba.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="responsiveslides.min.js"></script>
+
+
+    <link rel="stylesheet" href="animate.css">
+    <script src="wow.min.js"></script>
+
+
+    <link rel="stylesheet" href="fancybox.css">
+    <script src="fancybox.js"></script>
+
+
+</head>
+<body>
+    <header id="inicio">
+        <nav id="menu" class="contenido_header ancho">
+            <figure>
+                <img src="imagenes/logo.jpg" alt="">
+            </figure>
+            <div id="icono_menu">
+                <i class="icono_barras fas fa-bars"></i>
+            </div>
+
+            <ul id="contenedor_menu" class="contenido2_menu">
+                <li><a class="btn_ancla" href="#">ABOUT US</a></li>
+                <li><a class="btn_ancla" href="#">OUR SERVICES</a></li>
+                <li><a class="btn_ancla" href="#">PROJECTS</a></li>
+                <li><a class="btn_ancla" href="#">TEAM</a></li>
+                <li><a class="btn_ancla" href="#">LATEST NEWS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="ancho slidefotos">
+        <ul class="rslides">
+            <li><img src="imagenes/slide1.jpg" alt=""></li>
+            <li><img src="imagenes/slide2.jpg" alt=""></li>
+            <li><img src="imagenes/slide3.jpg" alt=""></li>
+        </ul>
+
+        <div class="informacion">
+            <h1>Expert Financial Advice</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In veritatis sint repudiandae? Officia.</p>
+            <br>
+            <a class="btn_learn" id="boton_modal" href="#">LEARN MORE</a>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section id="modal" class="fondomodal">
+        <div class="contenido_modal">
+            <div class="alineacion_cerrar">
+                <i id="cerrar_modal" class="cerrarmodal fa-solid fa-square-xmark"></i>
+            </div>
+
+            <article class="info_modal">
+                <figure>
+                    <img src="imagenes/logo.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="imagenes/fotomodal.jpg" alt="">
+                </figure>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo optio eius unde vel tempora rerum dignissimos qui, saepe sed corrupti?</p>
+
+            </article>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="ancho">
+        <section class="contenedor_servicios">
+            <br>
+            <h1>ABOUT US</h1>
+            <article class="wow animate__animated animate__fadeInLeft servicio">
+                <figure>
+                    <i class="fa-solid fa-laptop"></i>
+                </figure>
+                <br>
+                <h3>MARKETING SERVICES</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolor rem a ab nam esse temporibus fugiat cumque modi repudiandae.</p>
+            </article>
+
+            <article class="wow animate__animated animate__fadeInRight servicio">
+                <figure>
+                    <i class="fa-solid fa-chart-line"></i>
+                </figure>
+                <br>
+                <h3>MRKER SEARCH</h3>
+                <br>
+                <p>Our gym has enough place for all kinds of workouts and a wide variety of equipment.</p>
+            </article>
+
+            <article class="wow animate__animated animate__fadeInLeft servicio">
+                <figure>
+                    <i class="fa-regular fa-address-card"></i>
+                </figure>
+                <br>
+                <h3>BUSINESS PLAN</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolor rem a ab nam esse temporibus fugiat cumque modi repudiandae.</p>
+            </article>
+
+            <article class="wow animate__animated animate__fadeInRight servicio">
+                <figure>
+                    <i class="fa-solid fa-dollar-sign"></i>
+                </figure>
+                <br>
+                <h3>ADVERSITING</h3>
+                <br>
+                <p>Our gym has enough place for all kinds of workouts and a wide variety of equipment.</p>
+            </article>
+
+        </section>
+
+    </section>
+
+
+
+
+
+
+
+
+    <section class="ancho">
+        <article class="galeria">
+            <h1>PROJECTS</h1>
+            <a data-fancybox="gallery" data-src="imagenes/galeriafoto1.jpg" data-caption="FOTO 1 GALERIA">
+                <figure class="galeriafoto1">
+                    <img src="imagenes/galeriafoto1.jpg" alt="">
+                </figure>
+            </a>
+    
+            <a data-fancybox="gallery" data-src="imagenes/galeriafoto2.jpg" data-caption="FOTO 2 GALERIA">
+                <figure id="galefo2" class="galeriafoto2">
+                    <img src="imagenes/galeriafoto2.jpg" alt="">
+                </figure>
+            </a>
+
+            <a data-fancybox="gallery" data-src="imagenes/galeriafoto3.jpg" data-caption="FOTO 3 GALERIA">
+                <figure class="galeriafoto3">
+                    <img src="imagenes/galeriafoto3.jpg" alt="">
+                </figure>
+            </a>
+        </article>
+
+    </section>
+
+    <br>
+
+
+
+
+
+
+    <section class="contenedor_team ancho">
+        <h1 class="titulo1">TEAM</h1>
+        <br>
+        <article class="contenido_acordeones">
+            <div class="acordeon">
+                <div class="acordeon_titulo">
+                    <h1>Jhon Tyler</h1>
+                    <i class="fa-solid fa-circle-plus"></i>
+                </div>
+                <article class="acordeon_contenido">
+                    <figure>
+                        <img src="imagenes/foto_team1.jpg" alt="">
+                    </figure>
+                    <br>
+                    <h3>Director of client Strategy</h3>
+                    <br>
+                    <div class="redes">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </article>
+            </div>
+
+
+            <div class="acordeon">
+                <div class="acordeon_titulo">
+                    <h1>Stuart Williams</h1>
+                    <i class="fa-solid fa-circle-plus"></i>
+                </div>
+                <article class="acordeon_contenido">
+                    <figure>
+                        <img src="imagenes/foto_team2.jpg" alt="">
+                    </figure>
+                    <br>
+                    <h3>Director of client Strategy</h3>
+                    <br>
+                    <div class="redes">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </article>
+            </div>
+
+
+            <div class="acordeon">
+                <div class="acordeon_titulo">
+                    <h1>Jane MacMillan</h1>
+                    <i class="fa-solid fa-circle-plus"></i>
+                </div>
+                <article class="acordeon_contenido">
+                    <figure>
+                        <img src="imagenes/foto_team3.jpg" alt="">
+                    </figure>
+                    <br>
+                    <h3>Director of client Strategy</h3>
+                    <br>
+                    <div class="redes">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </article>
+            </div>
+
+
+            <div class="acordeon">
+                <div class="acordeon_titulo">
+                    <h1>Samanta Lopez</h1>
+                    <i class="fa-solid fa-circle-plus"></i>
+                </div>
+                <article class="acordeon_contenido">
+                    <figure>
+                        <img src="imagenes/foto_team4.jpg" alt="">
+                    </figure>
+                    <br>
+                    <h3>Director of client Strategy</h3>
+                    <br>
+                    <div class="redes">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </article>
+            </div>
+
+        </article>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section class="contenedor_carousel ancho">
+        <h1>LAST NEWS</h1>
+        <div id="slide-container">
+            <article class="slide" data-slideIndex="0">
+                <figure>
+                    <img src="imagenes/foto_news1.jpg" alt="">
+                </figure>
+
+            </article>
+
+            <article class="slide" data-slideIndex="1">
+                <figure>
+                    <img src="imagenes/foto_news2.jpg" alt="">
+                </figure>
+            </article>
+        </div>
+
+
+        <div class="contenedor_flechas">
+            <a href="#" id="back-button" class="arrow back">
+                <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            <a href="#" id="forward-button" class="arrow forward">
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+        </div>
+    </section>
+
+
+    <script>
+        // abrir menu
+        $("#icono_menu").click(function () {
+            $("#contenedor_menu").toggleClass('abrir_menu');
+        });
+
+        // despues de click menu cierra menu
+        $(".btn_ancla").click(function () {
+            $("#contenedor_menu").toggleClass("abrir_menu");
+        });
+
+
+
+        //Script SLIDE DE FOTOS
+        $(function() {
+            $(".rslides").responsiveSlides();
+        });
+
+
+
+
+        $("#boton_modal").click(function () {
+        $("#modal").addClass("mostrar");
+        })
+
+        $("#cerrar_modal").click(function () {
+        $("#modal").removeClass("mostrar");
+        })
+
+            // click por fuera
+        window.onclick = function (event) {
+            if (event.target == modal) {
+        $("#modal").removeClass("mostrar");
+        }
+        };
+
+
+
+
+
+        //Script de animaciones web
+        new WOW().init();
+
+
+
+
+        Fancybox.bind('[data-fancybox="gallery"]', {
+        });
+
+
+
+
+
+
+
+        $(".acordeon_titulo").click(function() {
+            var t = $(this);
+            var tp = t.next();
+            tp.slideToggle();
+
+        });
+
+    </script>
+
+    <script src="carousel.js"></script>
+</body>
+</html>

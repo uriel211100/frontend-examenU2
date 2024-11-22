@@ -1,0 +1,438 @@
+body{
+    font-family:  Arial, Helvetica;
+    font-size: 16px;
+    color: #333;
+    line-height: 24px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.ancho{
+    max-width: 480px;
+    margin: auto;
+    position: relative;
+    /* border: 2px red solid; */
+}
+
+.contenido_header{
+    background-color: #333947;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+
+
+}
+
+.contenido_header figure{
+    width: 200px;
+}
+
+.contenido_header figure img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.icono_barras{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+nav ul{
+    background-color: #333947;
+    color: white;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 90%;
+    left: -110%;
+    z-index: 100;
+    transition: all 0.5s linear;
+}
+
+nav ul li {
+    /* padding: 0px 0px; */
+    width: 100%;
+  }
+  nav ul li a {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+    /* font-weight: bold; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    /* border: 2px blue solid; */
+  }
+  nav ul li a:hover {
+    background: white;
+    color: #5ECAD4;
+  }
+
+  nav ul.abrir_menu {
+    left: 0;
+  }
+  nav ul.cerrar_menu {
+    left: -110%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    /* width: 100%; */
+    padding: 0;
+    /* margin: 0; */
+
+    max-width: 100%;
+    margin: auto;
+    /* border: 2px red solid; */
+
+    min-height: 100px;
+    }
+  
+  .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    }
+  
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+    }
+  
+  .rslides img {
+    display: block;
+    /* height: auto; */
+    float: left;
+    width: 100%;
+    border: 0;
+
+    min-height: 100px;
+    object-fit: cover;
+    }
+
+
+
+
+    .informacion{
+        color: white;
+        padding: 20px;
+        text-align: center;
+        width: 70%;
+        /* background-color: rgba(0, 0, 0, 0.747); */
+    
+    
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .informacion h1{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    
+    .slidefotos{
+        position: relative;
+        /* border: 2px green solid; */
+    }
+
+    .btn_learn{
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 50px;
+        background-color: #40A3DC;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .fondomodal{
+        border: 2px red solid;
+        margin: auto;
+
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: all 0.5s;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    .contenido_modal {
+        /* text-align: center; */
+        max-width: 400px;
+        background-color: #40A3DC;
+        padding: 35px;
+        border: 1px solid #888;
+        overflow: auto;
+        height: 70vh;
+        /* border: 2px green solid; */
+        border-radius: 20px;
+    }
+
+.info_modal{
+    margin: auto;
+}
+
+.info_modal figure{
+    width: 100%;
+    /* border: 2px red solid; */
+
+}
+
+.info_modal figure img{
+    width: 100%;
+}
+
+.alineacion_cerrar{
+    text-align: right;
+}
+
+.cerrarmodal{
+    color: #981403;
+    font-size: 30px;
+}
+
+.info_modal p{
+    color: white;
+}
+
+.mostrar {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor_servicios{
+    /* border: 2px red solid; */
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.contenedor_servicios article{
+    border: 3px #40A3DC solid;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.contenedor_servicios article i{
+    font-size: 55px;
+    color: #40A3DC;
+}
+
+.contenedor_servicios article h3{
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.galeria{
+    /* border: 2px green solid; */
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.galeria figure{
+    /* border: 1px blue solid; */
+
+    width: 380px;
+    height: 250px;
+
+}
+
+.galeria figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galeria h1{
+    /* font-weight: bolder; */
+    font-size: 25px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titulo1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.contenido_acordeones{
+    /* border: 2px red solid; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.acordeon_titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.acordeon_titulo i{
+    font-size: 30px;
+}
+
+.acordeon{
+    background-color: #40A3DC;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+
+.acordeon_contenido{
+    /* border: 2px green solid; */
+    display: none;
+    /* padding: 10px; */
+}
+
+.acordeon_contenido figure{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor_carousel{
+    padding: 20px;
+
+}
+
+.slide figure{
+    width: 300px;
+}
+
+.slide figure img{
+    width: 100%;
+}
